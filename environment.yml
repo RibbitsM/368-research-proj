@@ -1,0 +1,13 @@
+name: cpsc368
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - numpy
+  - matplotlib
+  - openpyxl
+  - jupyter
+  - pip
+  - pip:
+      - altair

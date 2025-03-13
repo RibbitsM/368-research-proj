@@ -1,26 +1,101 @@
-Year,BC Provincial Government,Alberta Provincial Government,Ontario Provincial Government,Quebec Provincial Government
-2000,NDP,Conservative Party,Conservative Party,Parti Quebecois
-2001,NDP,Conservative Party,Conservative Party,Parti Quebecois
-2002,Liberal Party,Conservative Party,Conservative Party,Parti Quebecois
-2003,Liberal Party,Conservative Party,Conservative Party,Liberal Party
-2004,Liberal Party,Conservative Party,Liberal Party,Liberal Party
-2005,Liberal Party,Conservative Party,Liberal Party,Liberal Party
-2006,Liberal Party,Conservative Party,Liberal Party,Liberal Party
-2007,Liberal Party,Conservative Party,Liberal Party,Liberal Party
-2008,Liberal Party,Conservative Party,Liberal Party,Liberal Party
-2009,Liberal Party,Conservative Party,Liberal Party,Liberal Party
-2010,Liberal Party,Conservative Party,Liberal Party,Liberal Party
-2011,Liberal Party,Conservative Party,Liberal Party,Liberal Party
-2012,Liberal Party,Conservative Party,Liberal Party,Parti Quebecois
-2013,Liberal Party,Conservative Party,Liberal Party,Parti Quebecois
-2014,Liberal Party,Conservative Party,Liberal Party,Liberal Party
-2015,Liberal Party,NDP,Liberal Party,Liberal Party
-2016,Liberal Party,NDP,Liberal Party,Liberal Party
-2017,Liberal Party,NDP,Liberal Party,Liberal Party
-2018,NDP,NDP,Conservative Party,Coalition Avenir Quebec
-2019,NDP,Conservative Party,Conservative Party,Coalition Avenir Quebec
-2020,NDP,Conservative Party,Conservative Party,Coalition Avenir Quebec
-2021,NDP,Conservative Party,Conservative Party,Coalition Avenir Quebec
-2022,NDP,Conservative Party,Conservative Party,Coalition Avenir Quebec
-2023,NDP,Conservative Party,Conservative Party,Coalition Avenir Quebec
-2024,NDP,Conservative Party,Conservative Party,Coalition Avenir Quebec
+Year,Province,Government
+2000,BC,NDP
+2001,BC,NDP
+2002,BC,Liberal Party
+2003,BC,Liberal Party
+2004,BC,Liberal Party
+2005,BC,Liberal Party
+2006,BC,Liberal Party
+2007,BC,Liberal Party
+2008,BC,Liberal Party
+2009,BC,Liberal Party
+2010,BC,Liberal Party
+2011,BC,Liberal Party
+2012,BC,Liberal Party
+2013,BC,Liberal Party
+2014,BC,Liberal Party
+2015,BC,Liberal Party
+2016,BC,Liberal Party
+2017,BC,Liberal Party
+2018,BC,NDP
+2019,BC,NDP
+2020,BC,NDP
+2021,BC,NDP
+2022,BC,NDP
+2023,BC,NDP
+2024,BC,NDP
+2000,Alberta,Conservative Party
+2001,Alberta,Conservative Party
+2002,Alberta,Conservative Party
+2003,Alberta,Conservative Party
+2004,Alberta,Conservative Party
+2005,Alberta,Conservative Party
+2006,Alberta,Conservative Party
+2007,Alberta,Conservative Party
+2008,Alberta,Conservative Party
+2009,Alberta,Conservative Party
+2010,Alberta,Conservative Party
+2011,Alberta,Conservative Party
+2012,Alberta,Conservative Party
+2013,Alberta,Conservative Party
+2014,Alberta,Conservative Party
+2015,Alberta,NDP
+2016,Alberta,NDP
+2017,Alberta,NDP
+2018,Alberta,NDP
+2019,Alberta,Conservative Party
+2020,Alberta,Conservative Party
+2021,Alberta,Conservative Party
+2022,Alberta,Conservative Party
+2023,Alberta,Conservative Party
+2024,Alberta,Conservative Party
+2000,Ontario,Conservative Party
+2001,Ontario,Conservative Party
+2002,Ontario,Conservative Party
+2003,Ontario,Conservative Party
+2004,Ontario,Liberal Party
+2005,Ontario,Liberal Party
+2006,Ontario,Liberal Party
+2007,Ontario,Liberal Party
+2008,Ontario,Liberal Party
+2009,Ontario,Liberal Party
+2010,Ontario,Liberal Party
+2011,Ontario,Liberal Party
+2012,Ontario,Liberal Party
+2013,Ontario,Liberal Party
+2014,Ontario,Liberal Party
+2015,Ontario,Liberal Party
+2016,Ontario,Liberal Party
+2017,Ontario,Liberal Party
+2018,Ontario,Conservative Party
+2019,Ontario,Conservative Party
+2020,Ontario,Conservative Party
+2021,Ontario,Conservative Party
+2022,Ontario,Conservative Party
+2023,Ontario,Conservative Party
+2024,Ontario,Conservative Party
+2000,Quebec,Parti Quebecois
+2001,Quebec,Parti Quebecois
+2002,Quebec,Parti Quebecois
+2003,Quebec,Liberal Party
+2004,Quebec,Liberal Party
+2005,Quebec,Liberal Party
+2006,Quebec,Liberal Party
+2007,Quebec,Liberal Party
+2008,Quebec,Liberal Party
+2009,Quebec,Liberal Party
+2010,Quebec,Liberal Party
+2011,Quebec,Liberal Party
+2012,Quebec,Parti Quebecois
+2013,Quebec,Parti Quebecois
+2014,Quebec,Liberal Party
+2015,Quebec,Liberal Party
+2016,Quebec,Liberal Party
+2017,Quebec,Liberal Party
+2018,Quebec,Coalition Avenir Quebec
+2019,Quebec,Coalition Avenir Quebec
+2020,Quebec,Coalition Avenir Quebec
+2021,Quebec,Coalition Avenir Quebec
+2022,Quebec,Coalition Avenir Quebec
+2023,Quebec,Coalition Avenir Quebec
+2024,Quebec,Coalition Avenir Quebec

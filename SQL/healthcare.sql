@@ -6,7 +6,7 @@ CREATE TABLE provincial_governments (
     year INT,
     province VARCHAR(50),
     party VARCHAR(50),
-    PRIMARY KEY (year, province),
+    PRIMARY KEY (year, province)
 );
 
 CREATE TABLE percent_expenditure_change (
@@ -19,16 +19,17 @@ CREATE TABLE percent_expenditure_change (
 );
 
 CREATE TABLE survey_expenditure (
+    idx int,
     province VARCHAR(15),
-    per_cap_spend FLOAT(10) NOT NULL,
-    coordination FLOAT(5) NOT NULL,
-    waiting_time FLOAT(5) NOT NULL,
-    care_access FLOAT(5) NOT NULL,
-    provider_access FLOAT(5) NOT NULL,
+    per_cap_spend FLOAT(10),
+    coordination FLOAT(5),
+    waiting_time FLOAT(5),
+    care_access FLOAT(5),
+    provider_access FLOAT(5),
     unmet_needs FLOAT(5),
-    total_spend FLOAT(10) NOT NULL,
-    year INT NOT NULL,
-    PRIMARY KEY (province),
+    total_spend FLOAT(10),
+    year int,
+    PRIMARY KEY (province)
 );
 
 

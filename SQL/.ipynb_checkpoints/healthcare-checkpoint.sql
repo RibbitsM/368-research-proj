@@ -1,11 +1,14 @@
 drop table provincial_governments;
 drop table percent_expenditure_change;
+drop table survey_expenditure;
 
 CREATE TABLE provincial_governments (
     year INT,
     province VARCHAR(50),
     party VARCHAR(50),
-    PRIMARY KEY (year, province)
+    PRIMARY KEY (year, province),
+    FOREIGN KEY (province)
+        REFERENCES survey_expenditure(province)
 );
 
 CREATE TABLE percent_expenditure_change (
@@ -14,83 +17,99 @@ CREATE TABLE percent_expenditure_change (
     percent_expenditure_change NUMERIC(5,2),
     PRIMARY KEY (year, province),
     FOREIGN KEY (year, province)
-      REFERENCES provincial_governments(year, province)
+        REFERENCES provincial_governments(year, province), survey_expenditure(province)
 );
 
-insert into provincial_governments 
-values('2000', 'BC', 'NDP');
+CREATE TABLE survey_expenditure (
+    province VARCHAR(15),
+    per_cap_spend FLOAT(10) NOT NULL,
+    coordination FLOAT(5) NOT NULL,
+    waiting_time FLOAT(5) NOT NULL,
+    care_access FLOAT(5) NOT NULL,
+    provider_access FLOAT(5) NOT NULL,
+    unmet_needs FLOAT(5),
+    total_spend FLOAT(10) NOT NULL,
+    year INT NOT NULL,
+    PRIMARY KEY (province),
+    FOREIGN KEY (year)
+        REFERENCES provincial_governments(year)
+);
+
 
 insert into provincial_governments 
-values('2001', 'BC', 'NDP');
+values('2000', 'BritishColumbia', 'NDP');
 
 insert into provincial_governments 
-values('2002', 'BC', 'Liberal Party');
+values('2001', 'BritishColumbia', 'NDP');
 
 insert into provincial_governments 
-values('2003', 'BC', 'Liberal Party');
+values('2002', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2004', 'BC', 'Liberal Party');
+values('2003', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2005', 'BC', 'Liberal Party');
+values('2004', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2006', 'BC', 'Liberal Party');
+values('2005', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2007', 'BC', 'Liberal Party');
+values('2006', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2008', 'BC', 'Liberal Party');
+values('2007', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2009', 'BC', 'Liberal Party');
+values('2008', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2010', 'BC', 'Liberal Party');
+values('2009', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2011', 'BC', 'Liberal Party');
+values('2010', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2012', 'BC', 'Liberal Party');
+values('2011', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2013', 'BC', 'Liberal Party');
+values('2012', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2014', 'BC', 'Liberal Party');
+values('2013', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2015', 'BC', 'Liberal Party');
+values('2014', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2016', 'BC', 'Liberal Party');
+values('2015', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2017', 'BC', 'Liberal Party');
+values('2016', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2018', 'BC', 'NDP');
+values('2017', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2019', 'BC', 'NDP');
+values('2018', 'BritishColumbia', 'NDP');
 
 insert into provincial_governments 
-values('2020', 'BC', 'NDP');
+values('2019', 'BritishColumbia', 'NDP');
 
 insert into provincial_governments 
-values('2021', 'BC', 'NDP');
+values('2020', 'BritishColumbia', 'NDP');
 
 insert into provincial_governments 
-values('2022', 'BC', 'NDP');
+values('2021', 'BritishColumbia', 'NDP');
 
 insert into provincial_governments 
-values('2023', 'BC', 'NDP');
+values('2022', 'BritishColumbia', 'NDP');
 
 insert into provincial_governments 
-values('2024', 'BC', 'NDP');
+values('2023', 'BritishColumbia', 'NDP');
+
+insert into provincial_governments 
+values('2024', 'BritishColumbia', 'NDP');
 
 insert into provincial_governments 
 values('2000', 'Alberta', 'Conservative Party');
@@ -619,3 +638,32 @@ insert into percent_expenditure_change
 values('2024', 'Quebec', '3.4');
 
 
+insert into survey_expenditure 
+values('0', 'Alberta', '5317.51', '2.682', '3.004', '1.096', '1.127', NULL, '23301.65', '2019');
+
+insert into survey_expenditure 
+values('1', 'BritishColumbia', '4762.885', '2.832', '3.243', '1.105', '1.151', '1.945', '24506.35', '2019');
+
+insert into survey_expenditure 
+values('2', 'Man.', '5021.065', '2.598', '3.24', '1.103', '1.112', '1.966', '6905.35', '2019');
+
+insert into survey_expenditure 
+values('3', 'N.B.', '4593.585', '2.316', '3.931', '1.074', '1.072', '1.962', '3585.1', '2019');
+
+insert into survey_expenditure 
+values('4', 'N.L.', '6319.605', '2.293', '3.606', '1.051', '1.105', '1.965', '3332.1', '2019');
+
+insert into survey_expenditure 
+values('5', 'N.S.', '5121.23', '2.5', '4.011', '1.092', '1.113', '1.935', '5032.8', '2019');
+
+insert into survey_expenditure 
+values('6', 'Ontario', '4610.65', '2.65', '3.164', '1.073', '1.087', '1.952', '67652.75', '2019');
+
+insert into survey_expenditure 
+values('7', 'P.E.I.', '5101.495', '2.271', '3.336', '1.071', '1.09', NULL, '803.55', '2019');
+
+insert into survey_expenditure 
+values('8', 'Quebec', '5037.435', '2.771', '3.809', '1.151', '1.17', '1.953', '42920.3', '2019');
+
+insert into survey_expenditure 
+values('9', 'Sask.', '5198.73', '2.542', '2.977', '1.093', '1.125', NULL, '6060.95', '2019');

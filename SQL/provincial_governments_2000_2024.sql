@@ -1,78 +1,78 @@
 
 insert into provincial_governments 
-values('2000', 'BC', 'NDP');
+values('2000', 'BritishColumbia', 'NDP');
 
 insert into provincial_governments 
-values('2001', 'BC', 'NDP');
+values('2001', 'BritishColumbia', 'NDP');
 
 insert into provincial_governments 
-values('2002', 'BC', 'Liberal Party');
+values('2002', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2003', 'BC', 'Liberal Party');
+values('2003', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2004', 'BC', 'Liberal Party');
+values('2004', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2005', 'BC', 'Liberal Party');
+values('2005', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2006', 'BC', 'Liberal Party');
+values('2006', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2007', 'BC', 'Liberal Party');
+values('2007', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2008', 'BC', 'Liberal Party');
+values('2008', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2009', 'BC', 'Liberal Party');
+values('2009', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2010', 'BC', 'Liberal Party');
+values('2010', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2011', 'BC', 'Liberal Party');
+values('2011', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2012', 'BC', 'Liberal Party');
+values('2012', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2013', 'BC', 'Liberal Party');
+values('2013', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2014', 'BC', 'Liberal Party');
+values('2014', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2015', 'BC', 'Liberal Party');
+values('2015', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2016', 'BC', 'Liberal Party');
+values('2016', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2017', 'BC', 'Liberal Party');
+values('2017', 'BritishColumbia', 'Liberal Party');
 
 insert into provincial_governments 
-values('2018', 'BC', 'NDP');
+values('2018', 'BritishColumbia', 'NDP');
 
 insert into provincial_governments 
-values('2019', 'BC', 'NDP');
+values('2019', 'BritishColumbia', 'NDP');
 
 insert into provincial_governments 
-values('2020', 'BC', 'NDP');
+values('2020', 'BritishColumbia', 'NDP');
 
 insert into provincial_governments 
-values('2021', 'BC', 'NDP');
+values('2021', 'BritishColumbia', 'NDP');
 
 insert into provincial_governments 
-values('2022', 'BC', 'NDP');
+values('2022', 'BritishColumbia', 'NDP');
 
 insert into provincial_governments 
-values('2023', 'BC', 'NDP');
+values('2023', 'BritishColumbia', 'NDP');
 
 insert into provincial_governments 
-values('2024', 'BC', 'NDP');
+values('2024', 'BritishColumbia', 'NDP');
 
 insert into provincial_governments 
 values('2000', 'Alberta', 'Conservative Party');

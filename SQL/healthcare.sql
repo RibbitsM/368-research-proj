@@ -30,9 +30,9 @@ CREATE TABLE survey_expenditure (
     unmet_needs FLOAT(5),
     total_spend FLOAT(10) NOT NULL,
     year INT NOT NULL,
-    PRIMARY KEY (province),
-    FOREIGN KEY (year)
-        REFERENCES provincial_governments(year)
+    PRIMARY KEY (year, province),
+    FOREIGN KEY (year, province)
+        REFERENCES provincial_governments(year, province)
 );
 
 

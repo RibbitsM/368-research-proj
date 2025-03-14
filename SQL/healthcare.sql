@@ -7,8 +7,8 @@ CREATE TABLE provincial_governments (
     province VARCHAR(50),
     party VARCHAR(50),
     PRIMARY KEY (year, province),
-    FOREIGN KEY (province)
-        REFERENCES survey_expenditure(province)
+    FOREIGN KEY (year, province)
+        REFERENCES survey_expenditure(year, province)
 );
 
 CREATE TABLE percent_expenditure_change (
@@ -17,7 +17,7 @@ CREATE TABLE percent_expenditure_change (
     percent_expenditure_change NUMERIC(5,2),
     PRIMARY KEY (year, province),
     FOREIGN KEY (year, province)
-        REFERENCES provincial_governments(year, province), survey_expenditure(province)
+        REFERENCES provincial_governments(year, province), survey_expenditure(year, province)
 );
 
 CREATE TABLE survey_expenditure (

@@ -1,0 +1,227 @@
+SQL> select * from expenditure_by_party;
+Alberta                                           ,      2000
+Conservative Party                                ,                      10.2
+
+BritishColumbia                                   ,      2000
+NDP                                               ,                       9.2
+
+Ontario                                           ,      2000
+Conservative Party                                ,                      10.9
+
+Alberta                                           ,      2001
+Conservative Party                                ,                      13.2
+
+BritishColumbia                                   ,      2001
+NDP                                               ,                      10.4
+
+Ontario                                           ,      2001
+Conservative Party                                ,                       5.5
+
+Alberta                                           ,      2002
+Conservative Party                                ,                       9.9
+
+BritishColumbia                                   ,      2002
+Liberal Party                                     ,                       6.4
+
+Ontario                                           ,      2002
+Conservative Party                                ,                       7.9
+
+Alberta                                           ,      2003
+Conservative Party                                ,                       7.2
+
+BritishColumbia                                   ,      2003
+Liberal Party                                     ,                       3.9
+
+Ontario                                           ,      2003
+Conservative Party                                ,                      11.5
+
+Alberta                                           ,      2004
+Conservative Party                                ,                       9.9
+
+BritishColumbia                                   ,      2004
+Liberal Party                                     ,                       2.2
+
+Ontario                                           ,      2004
+Liberal Party                                     ,                       7.5
+
+Alberta                                           ,      2005
+Conservative Party                                ,                      11.9
+
+BritishColumbia                                   ,      2005
+Liberal Party                                     ,                       6.4
+
+Ontario                                           ,      2005
+Liberal Party                                     ,                       6.9
+
+Alberta                                           ,      2006
+Conservative Party                                ,                      10.4
+
+BritishColumbia                                   ,      2006
+Liberal Party                                     ,                       4.3
+
+Ontario                                           ,      2006
+Liberal Party                                     ,                       6.1
+
+Alberta                                           ,      2007
+Conservative Party                                ,                      12.8
+
+BritishColumbia                                   ,      2007
+Liberal Party                                     ,                       7.5
+
+Ontario                                           ,      2007
+Liberal Party                                     ,                       9.1
+
+Alberta                                           ,      2008
+Conservative Party                                ,                       8.2
+
+BritishColumbia                                   ,      2008
+Liberal Party                                     ,                       6.5
+
+Ontario                                           ,      2008
+Liberal Party                                     ,                       5.3
+
+Alberta                                           ,      2009
+Conservative Party                                ,                       6.2
+
+BritishColumbia                                   ,      2009
+Liberal Party                                     ,                       4.4
+
+Ontario                                           ,      2009
+Liberal Party                                     ,                       6.4
+
+Alberta                                           ,      2010
+Conservative Party                                ,                      12.2
+
+BritishColumbia                                   ,      2010
+Liberal Party                                     ,                       4.9
+
+Ontario                                           ,      2010
+Liberal Party                                     ,                       4.8
+
+Alberta                                           ,      2011
+Conservative Party                                ,                       3.4
+
+BritishColumbia                                   ,      2011
+Liberal Party                                     ,                       3.6
+
+Ontario                                           ,      2011
+Liberal Party                                     ,                       3.3
+
+Alberta                                           ,      2012
+Conservative Party                                ,                       4.8
+
+BritishColumbia                                   ,      2012
+Liberal Party                                     ,                       6.5
+
+Ontario                                           ,      2012
+Liberal Party                                     ,                       4.7
+
+Alberta                                           ,      2013
+Conservative Party                                ,                       4.1
+
+BritishColumbia                                   ,      2013
+Liberal Party                                     ,                       2.2
+
+Ontario                                           ,      2013
+Liberal Party                                     ,                       2.2
+
+Alberta                                           ,      2014
+Conservative Party                                ,                       3.7
+
+BritishColumbia                                   ,      2014
+Liberal Party                                     ,                       3.5
+
+Ontario                                           ,      2014
+Liberal Party                                     ,                       2.8
+
+Alberta                                           ,      2015
+NDP                                               ,                       3.9
+
+BritishColumbia                                   ,      2015
+Liberal Party                                     ,                       3.7
+
+Ontario                                           ,      2015
+Liberal Party                                     ,                       2.8
+
+Alberta                                           ,      2016
+NDP                                               ,                       4.1
+
+BritishColumbia                                   ,      2016
+Liberal Party                                     ,                       4.3
+
+Ontario                                           ,      2016
+Liberal Party                                     ,                       2.2
+
+Alberta                                           ,      2017
+NDP                                               ,                         4
+
+BritishColumbia                                   ,      2017
+Liberal Party                                     ,                       3.6
+
+Ontario                                           ,      2017
+Liberal Party                                     ,                       3.3
+
+Alberta                                           ,      2018
+NDP                                               ,                       3.3
+
+BritishColumbia                                   ,      2018
+NDP                                               ,                       4.3
+
+Ontario                                           ,      2018
+Conservative Party                                ,                       4.1
+
+Alberta                                           ,      2019
+Conservative Party                                ,                       1.8
+
+BritishColumbia                                   ,      2019
+NDP                                               ,                       6.2
+
+Ontario                                           ,      2019
+Conservative Party                                ,                       3.9
+
+Alberta                                           ,      2020
+Conservative Party                                ,                       6.1
+
+BritishColumbia                                   ,      2020
+NDP                                               ,                      12.5
+
+Ontario                                           ,      2020
+Conservative Party                                ,                      13.8
+
+Alberta                                           ,      2021
+Conservative Party                                ,                       4.3
+
+BritishColumbia                                   ,      2021
+NDP                                               ,                      10.4
+
+Ontario                                           ,      2021
+Conservative Party                                ,                       7.5
+
+Alberta                                           ,      2022
+Conservative Party                                ,                       3.4
+
+BritishColumbia                                   ,      2022
+NDP                                               ,                       5.1
+
+Ontario                                           ,      2022
+Conservative Party                                ,                         3
+
+Alberta                                           ,      2023
+Conservative Party                                ,                       6.9
+
+BritishColumbia                                   ,      2023
+NDP                                               ,                       8.9
+
+Ontario                                           ,      2023
+Conservative Party                                ,                       2.1
+
+Alberta                                           ,      2024
+Conservative Party                                ,                         5
+
+BritishColumbia                                   ,      2024
+NDP                                               ,                        12
+
+Ontario                                           ,      2024
+Conservative Party                                ,                       4.6
+
+SQL> SPOOL OFF;

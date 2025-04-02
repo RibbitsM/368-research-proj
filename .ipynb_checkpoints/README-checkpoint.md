@@ -8,9 +8,9 @@ Below we list the structure of our repository, indicating how to run our code an
 
 2. Which province has the most efficient healthcare spending?
 
-## SQL Queries
+## SQL queries and creating the csv to use for further analysis steps
 
-For research question 1 we used the following SQL query:
+1. For research question 1 we used the following SQL query found in SQL/expenditure_by_party.sql:
 
 CREATE TABLE expenditure_by_party AS
 SELECT 
@@ -23,6 +23,10 @@ JOIN percent_expenditure_change pec
     ON pg.year = pec.year AND pg.province = pec.province
 WHERE pg.province IN ('Ontario', 'Alberta', 'BritishColumbia');
 
+2. To download the data from the server we run the code found in SQL/download_RQ1.sql to produce a formatted csv from the query.
+
+3. We then scp the file to Data/Clean/from_sql/expenditure_by_party.csv and use this in our analysis.
+
 ## Navigation and Important Files
 
 ### Our report
@@ -33,7 +37,7 @@ WHERE pg.province IN ('Ontario', 'Alberta', 'BritishColumbia');
 
 1. Within the SQL/ directory healthcare.sql contains our create table and insert statements used to establish and populate all tables on the sql database.
 
-2. Within the SQL/ directory the file expenditure_by_party.sql contains the query to create the table used to answer research question 1. It joins the provincial_governments and health_expenditure tables on the primary key (province, year) and excludes Quebec as a province for further analysis.
+2. Within the SQL/ directory the file expenditure_by_party.sql contains the query to create the table used to answer research question. It joins the provincial_governments and health_expenditure tables on the primary key (province, year) and excludes Quebec as a province for further analysis.
 
 ### Python Directory
 

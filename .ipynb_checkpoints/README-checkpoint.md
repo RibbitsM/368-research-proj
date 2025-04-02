@@ -50,3 +50,5 @@ In the root of our repository there is an environment.yml file which creates the
 1. conda env create -f environment.yml
 
 2. conda activate cpsc368
+
+3. jupyter lab final_report.ipynb

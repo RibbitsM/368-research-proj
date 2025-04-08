@@ -1,6 +1,6 @@
-drop table provincial_governments;
 drop table percent_expenditure_change;
 drop table survey_expenditure;
+drop table provincial_governments;
 
 CREATE TABLE provincial_governments (
     year INT,
@@ -664,3 +664,6 @@ values('Quebec', '5037.435', '2.771', '3.809', '1.151', '1.17', '1.953', '42920.
 
 insert into survey_expenditure 
 values('Sask.', '5198.73', '2.542', '2.977', '1.093', '1.125', NULL, '6060.95', '2019');
+
+insert into survey_expenditure
+values('Terrs.', '12422.525', '3.019', '3.733', '1.100', '1.423', NULL, '515.85', '2019');

@@ -23,7 +23,7 @@ JOIN percent_expenditure_change pec
     ON pg.year = pec.year AND pg.province = pec.province
 WHERE pg.province IN ('Ontario', 'Alberta', 'BritishColumbia');
 
-    For research question 2 the following SQL queries from SQL/survey_analysis.sql were used:
+2. For research question 2 the following SQL queries from SQL/survey_analysis.sql were used:
     
 CREATE TABLE survey_analysis AS
 SELECT
@@ -51,15 +51,15 @@ SET provider_access = 2 - provider_access;
 UPDATE survey_analysis
 SET unmet_needs = unmet_needs - 1;
 
-2. To download the data from the server we run the code found in SQL/download_RQ1.sql to produce a formatted csv from the query. The same was done for research question 2 using the identically formatted SQL/download_RQ2.sql file
+3. To download the data from the server we run the code found in SQL/download_RQ1.sql to produce a formatted csv from the query. The same was done for research question 2 using the identically formatted SQL/download_RQ2.sql file
 
-3. We then scp the file to Data/Clean/from_sql/expenditure_by_party.csv and use this in our analysis. The same was done for the second research question, creating the file survey_analysis.csv
+4. We then scp the file to Data/Clean/from_sql/expenditure_by_party.csv and use this in our analysis. The same was done for the second research question, creating the file survey_analysis.csv
 
 ## Navigation and Important Files
 
 ### Our report
 
-1. Our report can be found within the file final_report.ipynb in the doot directory of our repository. This file is our final report that we submit.
+1. Our report can be found within the file final_report.ipynb in the root directory of our repository. This file is our final report that we submit.
 
 ### SQL Directory
 

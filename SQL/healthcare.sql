@@ -1,6 +1,6 @@
-drop table provincial_governments;
 drop table percent_expenditure_change;
 drop table survey_expenditure;
+drop table provincial_governments;
 
 CREATE TABLE provincial_governments (
     year INT,
@@ -20,15 +20,14 @@ CREATE TABLE percent_expenditure_change (
 );
 
 CREATE TABLE survey_expenditure (
-    idx int,
     province VARCHAR(15),
-    per_cap_spend FLOAT(10),
-    coordination FLOAT(5),
-    waiting_time FLOAT(5),
-    care_access FLOAT(5),
-    provider_access FLOAT(5),
-    unmet_needs FLOAT(5),
-    total_spend FLOAT(10) NOT NULL,
+    per_cap_spend FLOAT(64),
+    coordination FLOAT(64),
+    waiting_time FLOAT(64),
+    care_access FLOAT(64),
+    provider_access FLOAT(64),
+    unmet_needs FLOAT(64),
+    total_spend FLOAT(64) NOT NULL,
     year INT NOT NULL,
     PRIMARY KEY (province)
 );
@@ -665,3 +664,6 @@ values('Quebec', '5037.435', '2.771', '3.809', '1.151', '1.17', '1.953', '42920.
 
 insert into survey_expenditure 
 values('Sask.', '5198.73', '2.542', '2.977', '1.093', '1.125', NULL, '6060.95', '2019');
+
+insert into survey_expenditure
+values('Terrs.', '12422.525', '3.019', '3.733', '1.100', '1.423', NULL, '515.85', '2019');
